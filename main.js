@@ -1,4 +1,4 @@
-var background_image = "mars.jpg";
+var background_image = "image (1).png";
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var rover_image = "rover.png";
