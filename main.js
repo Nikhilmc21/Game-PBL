@@ -99,6 +99,6 @@ uploadrover();
             }
 if(rx==0 && ry==0){
     if(keyPressed == '70'){
-        
+        document.getElementById("text").innerHTML = "sup nerd it worked"
     }
 }
