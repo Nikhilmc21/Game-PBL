@@ -18,7 +18,7 @@ function add() {
     rover_imgTag.src = rover_image;
 }
 function uploadBackground(){
-ctx.drawImage(background_imgTag, 0, 0, canvas.width, canvas.height);
+ctx.drawImage(background_imgTag, 210, 640, canvas.width, canvas.height);
 }
 function uploadrover(){
     ctx.drawImage(rover_imgTag, rx, ry, rw, rh);
@@ -97,3 +97,8 @@ uploadrover();
                     uploadrover(); 
                 }
             }
+if(rx==0 && ry==0){
+    if(keyPressed == '70'){
+        
+    }
+}
