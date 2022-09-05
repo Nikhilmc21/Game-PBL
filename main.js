@@ -1,4 +1,4 @@
-var background_image = "";
+var background_image = "image (1).png";
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var rover_image = "image-removebg-preview (1).png";
