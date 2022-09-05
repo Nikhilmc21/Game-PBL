@@ -3,7 +3,9 @@
 <head>
 <style>
 body{
-    background-color:black;
+    background-image: url("mars.gif");
+    background-position: center;
+    background-size: cover;
 }
 #myCanvas
 {
@@ -11,10 +13,7 @@ body{
     background-color: white; 
     border-style:ridge;
 }
-#textbox{
-    margin-bottom=640px;    
-}
-    
+
 h1,h4
 {
     color: white !important;
@@ -27,12 +26,11 @@ h1,h4
 </head>
 <body onload="add();">
 <center>
-<h1>PBL Game</h1>
+<h1>Moving Rover On Mars</h1>
 <h4>
-    <b class="text-danger">NOTE : </b> IF ASTRONAUT IS NOT VISIBLE PRESS ANY ARROW KEY
+    <b class="text-danger">NOTE : </b> IF ROVER IS NOT VISIBLE PRESS ANY ARROW KEY
 </h4>
-<canvas id="myCanvas" width="800" height="600">
-</canvas>
+<canvas id="myCanvas" width="800" height="600"></canvas>
 </center>
 <script src="main.js">
 </script>
