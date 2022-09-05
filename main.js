@@ -30,7 +30,7 @@ function my_keydown(e){
     console.log(keyPressed);
     if(keyPressed == '38')
     {
-        rover_image="image-removebg-preview (1).png"
+        rover_image="image-removebg-preview (3).png"
         rover_imgTag.onload = uploadrover;
         rover_imgTag.src = rover_image;
         uploadBackground();
@@ -39,7 +39,7 @@ function my_keydown(e){
     }
     if(keyPressed == '40')
     {
-        rover_image="image-removebg-preview (2).png"
+        rover_image="image-removebg-preview (1).png"
         rover_imgTag.onload = uploadrover;
         rover_imgTag.src = rover_image;
         uploadBackground();
@@ -48,7 +48,7 @@ function my_keydown(e){
     }
     if(keyPressed == '37')
     {
-        rover_image="image-removebg-preview (3).png"
+        rover_image="image-removebg-preview (4).png"
         rover_imgTag.onload = uploadrover;
         rover_imgTag.src = rover_image;
         uploadBackground();
