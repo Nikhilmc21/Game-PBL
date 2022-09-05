@@ -1,7 +1,7 @@
-var background_image = "image (1).png";
+var background_image = "mars.jpg";
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
-var rover_image = "image-removebg-preview (1).png";
+var rover_image = "rover.png";
 var rx = 10;
 var ry = 10;
 var rw = 70;
@@ -18,7 +18,7 @@ function add() {
     rover_imgTag.src = rover_image;
 }
 function uploadBackground(){
-ctx.drawImage(background_imgTag, 210, 640, canvas.width, canvas.height);
+ctx.drawImage(background_imgTag, 0, 0, canvas.width, canvas.height);
 }
 function uploadrover(){
     ctx.drawImage(rover_imgTag, rx, ry, rw, rh);
@@ -30,35 +30,23 @@ function my_keydown(e){
     console.log(keyPressed);
     if(keyPressed == '38')
     {
-        rover_image = "image-removebg-preview (3).png";
-        rover_imgTag.src = rover_image;
         up();
         console.log("up");
-        uploadrover();
     }
     if(keyPressed == '40')
     {
-        rover_image = "image-removebg-preview (1).png";
-        rover_imgTag.src = rover_image;
         down();
         console.log("down");
-        uploadrover();
     }
     if(keyPressed == '37')
     {
-        rover_image = "image-removebg-preview (4).png"
-        rover_imgTag.src = rover_image;
         left();
         console.log("left");
-        uploadrover();
     }
     if(keyPressed == '39')
     {
-        rover_image = "image-removebg-preview (2).png";
-        rover_imgTag.src = rover_image;
         right();
         console.log("right");
-        uploadrover();
     }
 }
 function up()
