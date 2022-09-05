@@ -1,7 +1,7 @@
 var background_image = "mars.jpg";
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
-var rover_image = "rover.png";
+var rover_image = "image-removebg-preview (1).png";
 var rx = 10;
 var ry = 10;
 var rw = 70;
@@ -30,16 +30,22 @@ function my_keydown(e){
     console.log(keyPressed);
     if(keyPressed == '38')
     {
+        rover_image="image-removebg-preview (2).png"
+        uploadrover();
         up();
         console.log("up");
     }
     if(keyPressed == '40')
     {
+        rover_image="image-removebg-preview (3).png"
+        uploadrover();
         down();
         console.log("down");
     }
     if(keyPressed == '37')
     {
+        rover_image="image-removebg-preview (4).png"
+        uploadrover();
         left();
         console.log("left");
     }
