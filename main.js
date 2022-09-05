@@ -33,6 +33,7 @@ function my_keydown(e){
         rover_image="image-removebg-preview (1).png"
         rover_imgTag.onload = uploadrover;
         rover_imgTag.src = rover_image;
+        uploadBackground();
         up();
         console.log("up");
     }
@@ -41,6 +42,7 @@ function my_keydown(e){
         rover_image="image-removebg-preview (2).png"
         rover_imgTag.onload = uploadrover;
         rover_imgTag.src = rover_image;
+        uploadBackground();
         down();
         console.log("down");
     }
@@ -49,6 +51,7 @@ function my_keydown(e){
         rover_image="image-removebg-preview (3).png"
         rover_imgTag.onload = uploadrover;
         rover_imgTag.src = rover_image;
+        uploadBackground();
         left();
         console.log("left");
     }
@@ -57,6 +60,7 @@ function my_keydown(e){
         rover_image="image-removebg-preview (2).png"
         rover_imgTag.onload = uploadrover;
         rover_imgTag.src = rover_image;
+        uploadBackground();
         right();
         console.log("right");
     }
