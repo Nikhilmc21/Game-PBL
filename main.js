@@ -31,26 +31,28 @@ function my_keydown(e){
     if(keyPressed == '38')
     {
         rover_image="image-removebg-preview (2).png"
-        uploadrover();
+        rover_imgTag.src = rover_image;
         up();
         console.log("up");
     }
     if(keyPressed == '40')
     {
         rover_image="image-removebg-preview (3).png"
-        uploadrover();
+        rover_imgTag.src = rover_image;
         down();
         console.log("down");
     }
     if(keyPressed == '37')
     {
         rover_image="image-removebg-preview (4).png"
-        uploadrover();
+        rover_imgTag.src = rover_image;
         left();
         console.log("left");
     }
     if(keyPressed == '39')
     {
+        rover_image="image-removebg-preview (1).png"
+        rover_imgTag.src = rover_image;
         right();
         console.log("right");
     }
